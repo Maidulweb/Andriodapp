@@ -1,0 +1,74 @@
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+    padding-left: 27px;
+}
+[type="checkbox"]:not(:checked)+span, [type="checkbox"]:checked+span {
+    padding-left: 20px;
+}
+[type="checkbox"]+span:not(.lever):before, [type="checkbox"]:not(.filled-in)+span:not(.lever):after {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+.gender p {
+    display: inline-block;
+    padding-right: 12px;
+}
+.send-btn {
+    margin-left: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 0;
+    padding: 10px 38px;
+    font-size: 1.3em;
+    color: #fff;
+    background: #363854;
+}
+.available-h6 {
+    font-size: 1.4rem;
+    line-height: 138%;
+}
+.input-field>label {
+    color: #6f6f6f;
+    font-size: 1.2rem;
+}
+label {
+    color: #6f6f6f;
+}
+[type="radio"]:not(:checked)+span, [type="radio"]:checked+span {
+    font-size: 1.2rem;
+}
+[type="checkbox"]+span:not(.lever) {
+    font-size: 1.2rem;
+}
+h6 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: grey;
+}
+p {
+    font-size: 1.2rem;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    background-color: transparent;
+    border: none !important;
+    box-shadow: 0 0 7px 1px #d0cfcf;
+    border-radius: 4px;
+}
+::placeholder {
+    color: #6f6f6f;
+    padding-left: 14px;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #6f6f6f;
+    padding-left: 14px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #6f6f6f;
+    padding-left: 14px;
+  }
+.p-t-30 {
+    padding-top: 30px !important;
+}
